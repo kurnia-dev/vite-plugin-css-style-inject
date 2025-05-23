@@ -1,4 +1,4 @@
-# Vite Plugin: Style Inject
+# Vite Plugin: CSS Style Inject
 
 A Vite plugin that **injects CSS dynamically into JavaScript** instead of generating separate CSS files, ensuring styles are always included within the final build output.
 
@@ -11,13 +11,13 @@ A Vite plugin that **injects CSS dynamically into JavaScript** instead of genera
 ## 🛠 Installation
 
 ```sh
-npm install vite-plugin-style-inject -D
+npm install vite-plugin-css-style-inject -D
 ```
 
 or
 
 ```sh
-pnpm add vite-plugin-style-inject -D
+pnpm add vite-plugin-css-style-inject -D
 ```
 
 ## ⚙️ Usage
@@ -25,7 +25,7 @@ pnpm add vite-plugin-style-inject -D
 In `vite.config.ts` or `vite.config.js`, import and use the plugin:
 
 ```ts
-import styleInjectPlugin from 'vite-plugin-style-inject';
+import styleInjectPlugin from 'vite-plugin-css-style-inject';
 
 export default {
   plugins: [styleInjectPlugin()],
