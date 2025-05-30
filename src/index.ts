@@ -1,6 +1,6 @@
 import { Plugin } from 'vite';
 
-const cssSytleInjectPlugin = (): Plugin => ({
+const cssStyleInjectPlugin = (): Plugin => ({
   name: 'style-inject',
   enforce: 'post',
   config: () => ({
@@ -31,4 +31,4 @@ const cssSytleInjectPlugin = (): Plugin => ({
   },
 });
 
-export default cssSytleInjectPlugin;
+export default cssStyleInjectPlugin;
